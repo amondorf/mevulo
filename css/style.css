@@ -1,0 +1,261 @@
+* {
+   /*border: 1px solid red !important;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a, a:hover, a:visited, a:active, a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.underlined-thin {
+  border-bottom: 2px solid #542553;
+  padding-bottom:2px;
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 20em;
+  max-height: auto;
+  float: left;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    padding: 1em 0 3em 1em;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<head image>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.overlay {
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../images/shirts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 10em 4em 10em 4em;
+}
+
+.img-text {
+  font-size: 2em;
+  line-height: 2.5em;
+  /*margin-top: -3em;*/
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<colecciones>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.header {
+  font-size: 2em;
+  text-align: center;
+  padding: 2em 0 1em 0;
+}
+
+.colecciones-2 {
+  padding-top: 2em;
+}
+
+.img-colecciones {
+  object-fit: cover;
+  width: 15em;
+  height: 15em;
+}
+
+.img-colecciones:hover {
+  cursor: pointer;
+}
+
+.img-center {
+  text-align: center;
+  position: relative;
+}
+
+.img-right {
+  text-align: right;
+}
+
+/*https://codepen.io/wizly/pen/lfqFw*/
+div.img-description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:5.5em; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	/*background-color:black;*/
+	color:white;
+}
+p.img-description-content{
+	/*padding:10px;*/
+	margin:0px;
+	font-size: 30px;
+  cursor: pointer;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 1;
+  padding-top: 100px;
+  /*left: 10em;*/
+  /*top: 10em;*/
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  width: 45%;
+  max-width: 1000px;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #8e5286;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #56555e;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #8e5286;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding: 2px 16px;
+  color: black;
+}
+
+img.demo {
+  opacity: 0.6;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.img-popup {
+  max-width: 100%;
+  max-height: auto;
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.idea-text{
+  font-size: 1.2em;
+  margin: 0 9em 0 9em;
+  line-height: 1.7em;
+}
+
+.contact {
+  padding: 2em 0 10em 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+@media (max-width: 480px) {
+
+}

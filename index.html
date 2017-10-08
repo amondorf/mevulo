@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEVULO</title>
+
+    <!-- Bootstrap -->
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- for bootstrap glyphicons -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" /> -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+        <img src="images/logo.jpg" alt="mevulo logo" class="logo">
+    </nav>
+
+    <div class="container overlay">
+      <div class="row text-center img-text">
+            Piezas <span class="bold">únicas</span>, confeccionadas a mano, <span class="bold">estampadas artesanalmente</span> hechas con <span class="italic">cariño</span> en un lugar cerca del mar
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-xs-12">
+        <p class="header">
+          COLECCIONES
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <div class="img-right">
+          <img src="images/logo.jpg" class="img-colecciones">
+        </div>
+      </div>
+<!-- <<<<<<<<<<<<<<<<<first linked image>>>>>>>>>>>>>>>>>>>>> -->
+      <div class="col-xs-4">
+        <div class="row">
+          <div class="img-center">
+            <img src="images/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow img-colecciones">
+            <div class="img-description">
+              <p class="img-description-content">
+                Baberos
+              </p>
+            </div>
+          </div>
+        </div>
+<!-- <<<<<<<<<<<<<<<<<popup images>>>>>>>>>>>>>>>>>>>>> -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/1.jpg" class="img-popup">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <div class="column">
+              <img class="demo" src="images/1.jpg" onclick="currentSlide(1)" alt="">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="images/2.jpg" onclick="currentSlide(2)" alt="">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="images/3.jpg" onclick="currentSlide(3)" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-4">
+        <img src="images/logo.jpg" class="img-colecciones">
+      </div>
+    </div>
+
+<!-- <<<<<<<<<<<<<<<<<colecciones 2nd row>>>>>>>>>>>>>>>>>>>>> -->
+<!-- <<<<<<<<<<<<<<<<<colecciones 2nd row>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="container colecciones-2">
+      <div class="col-xs-4">
+        <div class="img-right">
+          <img src="images/logo.jpg" class="img-colecciones">
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <div class="img-center">
+          <img src="images/logo.jpg" class="img-colecciones">
+        </div>
+      </div>
+
+      <div class="col-xs-4">
+        <img src="images/logo.jpg" class="img-colecciones">
+      </div>
+    </div>
+
+<!-- <<<<<<<<<<<<<<<<<colecciones 3rd row>>>>>>>>>>>>>>>>>>>>> -->
+<!-- <<<<<<<<<<<<<<<<<colecciones 3rd row>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="container colecciones-2">
+      <div class="col-xs-4">
+        <div class="img-right">
+          <img src="images/logo.jpg" class="img-colecciones">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <p class="header">
+        LA IDEA
+      </p>
+      <div class="center idea-text">
+        <p>
+          Desde que tengo memoria, he hecho cosas con las manos. De todo tipo, pero sobre todo textiles. Comencé cosiendo
+          a mano ropa a mis muñecas, tuve mi primera máquina de coser a los 8 años, luego seguí haciendo ropa y accesorios
+          para mí y mis amigas, luego aparecieron niños en la familia y nuevas ideas para ellos…
+        </p>
+        <p>
+          Paralelamente, aprendí a estampar en serigrafía y comencé haciendo camisetas para mis amigos. Pero las ideas de
+          fabricar objetos útiles usando telas con estampados propios comenzaron a brotar sin parar.
+        </p>
+        <p>
+          Ahora conjugo el estampado de textiles con mis ideas de materiales y formas, creando piezas únicas que yo misma
+          usaría y disfrutaría. A través de Mevulo espero compartirlas con todos quienes aprecien piezas exclusivas y confeccionadas
+          artesanalmente.
+        </p>
+      </div>
+      <div class="contact">
+        <p>
+          ¿Quieres saber más?
+        </p>
+        <p>
+          Visita mi tienda en Etsy
+        </p>
+        <p>
+          O escríbeme
+        </p>
+        <p>
+          <a href="mailto:hola@mevulo.com?subject=Hola, mevulo!" class="underlined-thin"><b>hola@mevulo.com</b></a>
+        </p>
+      </div>
+
+    </div>
+
+
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
