@@ -256,6 +256,47 @@ img.hover-shadow {
   font-size: 1.2em;
 }
 
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 480px) {
+  .logo {
+    float: none;
+  }
 
+  .overlay {
+      padding: 10em 0.5em 10em 0.5em;
+  }
+
+  .img-right {
+    text-align: center;
+    padding-bottom: 2em;
+  }
+
+  .img-center-mobile {
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  .img-colecciones {
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
+  }
+
+  .modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .idea-text{
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .contact {
+    padding: 2em 0 5em 0;
+  }
 }
