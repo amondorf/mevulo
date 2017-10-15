@@ -5,11 +5,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Bubbler One', sans-serif;
 }
 
 a, a:hover, a:visited, a:active, a:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 .logo {
-  max-width: 20em;
+  max-width: 25em;
   max-height: auto;
   float: left;
 }
@@ -28,14 +28,14 @@ a, a:hover, a:visited, a:active, a:link {
 .navbar-default {
     background-color: white;
     border-color: white;
-    padding: 2em 0 3em 2em;
+    padding: 2em 0 2em 2em;
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<head image>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .overlay {
-    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../images/shirts.jpg");
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../images/Rectángulo 2000 x 3000 4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -46,6 +46,7 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 .img-text {
+  font-family:'Didact Gothic', sans-serif;
   font-size: 2em;
   line-height: 2.5em;
   /*margin-top: -3em;*/
@@ -63,9 +64,11 @@ a, a:hover, a:visited, a:active, a:link {
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<colecciones>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .header {
+  font-family:'Didact Gothic', sans-serif;
   font-size: 2em;
+  color: #542553;
   text-align: center;
-  padding: 2em 0 1em 0;
+  padding: 4em 0 1em 0;
 }
 
 .colecciones-2 {
@@ -74,8 +77,8 @@ a, a:hover, a:visited, a:active, a:link {
 
 .img-colecciones {
   object-fit: cover;
-  width: 15em;
-  height: 15em;
+  width: 25em;
+  height: 25em;
 }
 
 .img-colecciones:hover {
@@ -91,171 +94,60 @@ a, a:hover, a:visited, a:active, a:link {
   text-align: right;
 }
 
-/*https://codepen.io/wizly/pen/lfqFw*/
-div.img-description{
-	position:absolute; /* absolute position (so we can position it where we want)*/
-	bottom:5.5em; /* position will be on bottom */
-	left:0px;
-	width:100%;
-	/* styling bellow */
-	/*background-color:black;*/
-	color:white;
-}
-p.img-description-content{
-	/*padding:10px;*/
-	margin:0px;
-	font-size: 30px;
-  cursor: pointer;
-}
-
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  margin: 0 auto;
-  z-index: 1;
-  padding-top: 100px;
-  /*left: 10em;*/
-  /*top: 10em;*/
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: white;
-}
-
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: white;
-  margin: auto;
-  padding: 0;
-  width: 45%;
-  max-width: 1000px;
-}
-
-/* The Close Button */
-.close {
-  color: black;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #8e5286;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: #56555e;
-}
-
-/* Number text (1/3 etc) */
-/*.numbertext {
-  color: #8e5286;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}*/
-
-.caption-container {
-  text-align: center;
-  background-color: white;
-  padding: 2px 16px;
-  color: black;
-}
-
-img.demo {
-  opacity: 0.6;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-
-.img-popup {
-  max-width: 100%;
-  max-height: auto;
-  overflow: hidden;
-}
-
 .center {
   text-align: center;
 }
 
 .idea-text{
-  font-size: 1.2em;
-  margin: 0 9em 0 9em;
+  font-size: 1.4em;
+  /*margin: 0 9em 0 9em;*/
   line-height: 1.7em;
 }
 
 .contact {
   padding: 2em 0 10em 0;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
+.laartista {
+  border-radius: 50%;
+}
+
+.text-circle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 19em;
+    height: 19em;
+    padding: 8px;
+    background: #274b3b;
+    border: 2px solid #274b3b;
+    color: white;
+    text-align: center;
+}
+
+.add-space {
+  padding-top: 4em;
+}
+
+.add-space-idea {
+  padding-top: 2em;
+}
+
+.text-bubble {
+  padding-left: 13em;
+  margin-top: -6em;
+}
+
+.col-sm-6 {
+  padding-left: 0;
+}
+
+.brand {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0 0 1em 1em;
+}
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 480px) {
@@ -298,9 +190,27 @@ img.hover-shadow {
 
   .idea-text{
     margin: 0 0.5em 0 0.5em;
+    padding-top: 0;
   }
 
   .contact {
     padding: 2em 0 5em 0;
+  }
+
+  .laartista {
+    padding-top: 2em;
+  }
+
+  .add-space {
+    padding-top: 2em;
+  }
+
+  .add-space-idea {
+    padding-top: 0;
+  }
+
+  .text-bubble {
+    padding-left: 0;
+    margin-top: 0;
   }
 }

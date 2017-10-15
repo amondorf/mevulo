@@ -1,0 +1,129 @@
+* {
+   /*border: 1px solid red !important;*/
+}
+
+/*image slider as seen at https://www.w3schools.com/bootstrap/bootstrap_carousel.asp*/
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     max-width: 50%;
+     max-height: auto;
+     margin: auto;
+ }
+
+#myCarousel {
+  margin-top: 70px;
+}
+
+#img-size {
+  max-width: 40%;
+  max-height: auto;
+  margin: auto;
+}
+
+/*hide when clicked on book details*/
+.hide-section {
+  display: none;
+}
+
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.img-responsive {
+  /*padding-left: 20px;*/
+  float: left;
+  max-width: 40%;
+  max-height: auto;
+  margin-right: 10px;
+}
+
+.book-title {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+
+.book-description {
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#mc_embed_signup {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font: 20px 'Julius Sans One',Arial,sans-serif;
+}
+
+#subscribe-title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+#social {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#social-content {
+  margin-left: 150px;
+}
+
+.policies {
+  margin: 10px 150px 10px 150px;
+  font-size: 14px;
+}
+
+#policies-title {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+b {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+
+.preview-section {
+  max-width: 50%;
+}
+
+.previewed-img {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+  padding-bottom: 3em;
+}
+
+.brand {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0 0 1em 1em;
+  font-family: 'Bubbler One', sans-serif;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (max-width: 480px) {
+  .preview-section {
+    display: none;
+  }
+
+  #img-size {
+    max-width: 100%;
+  }
+}
