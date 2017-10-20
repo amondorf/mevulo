@@ -228,6 +228,10 @@ a, a:hover, a:visited, a:active, a:link {
     padding-left: 0;
     margin-top: 0;
   }*/
+  .add-space-idea {
+    padding-top: 0;
+  }
+
   .text-bubble {
     padding-left: 0;
     margin-top: 0;
@@ -245,7 +249,11 @@ a, a:hover, a:visited, a:active, a:link {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-  /* Styles */
+  .img-colecciones {
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
+  }
 }
 
 /* iPads (portrait) ----------- */
@@ -253,5 +261,13 @@ and (orientation : landscape) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-  /* Styles */
+  .img-colecciones {
+    object-fit: cover;
+    width: 15em;
+    height: 15em;
+  }
+
+  .add-space-idea {
+    padding-top: 0;
+  }
 }
