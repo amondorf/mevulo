@@ -1,53 +1,53 @@
-// book site
-var books = [{
-       id: "book1",
-        name: "Octopus Encounters",
-        item: "test1",
-        author: "Anton First",
-        description: "One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-        img: "img/octopus_encounters.png"
-    },
-    {
-      id: "book2",
-      name: "The Crimson Way",
-      item: "test2",
-      author: "S. R. Keightley",
-      description: "Two Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      img: "img/the_crimson_way.png"
-    },
-    {
-      id: "book3",
-      name: "Far Gone",
-      item: "test3",
-      author: "Mark Thirst",
-      description: "Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      img: "img/far_gone.png"
-    },
-    {
-      id: "book4",
-      name: "Alternative Views",
-      item: "test4",
-      author: "Walter Fond",
-      description: "Four Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      img: "img/alternative_views.png"
-    },
-    {
-      id: "book5",
-      name: "Under No Umbrella",
-      item: "test5",
-      author: "Eduard Ferst",
-      description: "Five Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      img: "img/under_no_umbrella.png"
-    },
-    {
-      id: "book6",
-      name: "I Never Said That",
-      item: "test6",
-      author: "Antalia Stark",
-      description: "Six Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-      img: "img/i_never_said_that.png"
-        }
-];
+// // book site
+// var books = [{
+//        id: "book1",
+//         name: "Octopus Encounters",
+//         item: "test1",
+//         author: "Anton First",
+//         description: "One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//         img: "img/octopus_encounters.png"
+//     },
+//     {
+//       id: "book2",
+//       name: "The Crimson Way",
+//       item: "test2",
+//       author: "S. R. Keightley",
+//       description: "Two Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//       img: "img/the_crimson_way.png"
+//     },
+//     {
+//       id: "book3",
+//       name: "Far Gone",
+//       item: "test3",
+//       author: "Mark Thirst",
+//       description: "Three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//       img: "img/far_gone.png"
+//     },
+//     {
+//       id: "book4",
+//       name: "Alternative Views",
+//       item: "test4",
+//       author: "Walter Fond",
+//       description: "Four Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//       img: "img/alternative_views.png"
+//     },
+//     {
+//       id: "book5",
+//       name: "Under No Umbrella",
+//       item: "test5",
+//       author: "Eduard Ferst",
+//       description: "Five Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//       img: "img/under_no_umbrella.png"
+//     },
+//     {
+//       id: "book6",
+//       name: "I Never Said That",
+//       item: "test6",
+//       author: "Antalia Stark",
+//       description: "Six Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+//       img: "img/i_never_said_that.png"
+//         }
+// ];
 
 $('img, .book-description').on("click touch", function(){
  //  console.log("test");
@@ -73,10 +73,10 @@ $('img, .book-description').on("click touch", function(){
   $("#details-page").removeClass("hide-section");
 });
 
-// hide brand when clicking on hamburger menu
-$('button').click(function(){
-  $('.toggle').toggleClass('hide-blp');
-});
+// // hide brand when clicking on hamburger menu
+// $('button').click(function(){
+//   $('.toggle').toggleClass('hide-blp');
+// });
 
 // add 'continue reading..' add on in mobile view
  if ( $(window).width() < 767) {

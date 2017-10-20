@@ -54,10 +54,8 @@
 .brand {
   font-size: 1em;
   text-align: center;
-  padding: 0 0 0 1em;
+  padding: 0 0 1em 1em;
   font-family: 'Open Sans', sans-serif;
-  position: absolute;
-  bottom: 0;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -68,5 +66,11 @@
 
   #img-size {
     max-width: 100%;
+  }
+
+  .brand {
+    padding: 0 0 0 1em;
+    position: absolute;
+    bottom: 0;
   }
 }
