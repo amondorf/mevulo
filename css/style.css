@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Bubbler One', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 a, a:hover, a:visited, a:active, a:link {
@@ -20,15 +20,17 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 .logo {
-  max-width: 25em;
+  max-width: 35em;
   max-height: auto;
-  float: left;
+  /*float: left;*/
 }
 
 .navbar-default {
     background-color: white;
     border-color: white;
-    padding: 2em 0 2em 2em;
+    margin: 0;
+    float: none;
+    text-align:center;
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<head image>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -46,7 +48,7 @@ a, a:hover, a:visited, a:active, a:link {
 }
 
 .img-text {
-  font-family:'Didact Gothic', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size: 2em;
   line-height: 2.5em;
   /*margin-top: -3em;*/
@@ -64,8 +66,8 @@ a, a:hover, a:visited, a:active, a:link {
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<colecciones>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .header {
-  font-family:'Didact Gothic', sans-serif;
-  font-size: 2em;
+  font-family:'Open Sans', sans-serif;
+  font-size: 2.5em;
   color: #542553;
   text-align: center;
   padding: 4em 0 1em 0;
@@ -147,16 +149,17 @@ a, a:hover, a:visited, a:active, a:link {
   font-size: 1.3em;
   text-align: center;
   padding: 0 0 1em 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (max-width: 480px) {
   .logo {
-    float: none;
+    /*float: none;*/
   }
 
   .navbar-default {
-      padding: 2em 2em 3em 2em;
+      /*padding: 2em 2em 3em 2em;*/
   }
 
   .overlay {
