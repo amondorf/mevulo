@@ -189,6 +189,10 @@ a, a:hover, a:visited, a:active, a:link {
     padding-bottom: 2em;
   }
 
+  .img-right-mobile {
+    text-align: center;
+  }
+
   .img-center-mobile {
     text-align: center;
     padding-top: 2em;
