@@ -100,6 +100,10 @@ a, a:hover, a:visited, a:active, a:link {
   text-align: center;
 }
 
+.second-row {
+  padding-top: 2em;
+}
+
 .idea-text{
   font-size: 1.4em;
   /*margin: 0 9em 0 9em;*/
@@ -114,6 +118,8 @@ a, a:hover, a:visited, a:active, a:link {
 
 .laartista {
   border-radius: 50%;
+  max-width: 15em;
+  max-height: auto;
 }
 
 .text-circle {
